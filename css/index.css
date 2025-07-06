@@ -1,0 +1,60 @@
+/* Home page */
+
+body#index {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+	
+	background:immagini/HeartInHand_illustration_UseBackgroundNavy_RGB.png;
+	
+	background-color:#F5DEB3;
+}
+
+#index header {
+    max-width: 550px;
+    padding: 0 40px;
+    margin: 0 0;
+}
+
+#index footer {
+    position: center;
+}
+
+#index header h1 {
+    font-size: 85px;
+    line-height: 85px;
+	position: absolute;
+	left: 50px;
+	top:190px;
+    margin-top: 0;
+	text-align: center;
+	color: black;
+	font-family: Palatino Linotype;
+}
+
+#index header img {
+	
+	width: 950px;
+	height: 700px;
+    position: absolute; 
+    left: 650px; 
+    top: 30px; 
+	
+	
+}
+#index header nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#index iframe {
+	width: 650px;
+	height: 400px;
+    position: absolute; 
+    left: 850px; 
+    top: 190px; 
+}

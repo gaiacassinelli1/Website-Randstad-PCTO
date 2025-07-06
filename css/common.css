@@ -1,0 +1,397 @@
+/* Common styles for the whole website */
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,500,500i,700|PT+Sans:400,700&display=swap');
+
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+
+    margin-bottom: -50px;
+    padding-bottom: 50px;
+
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+/* Typography */
+
+body, form, input, button, footer {
+    font-family: Palatino Linotype;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 45px;
+    margin: 40px 0;
+	color: black;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+h3 {
+	font-weight: 700;
+    margin: 0;
+    margin-top: 1em;
+}
+
+.number {
+    font-family: serif;
+    font-size: 16px;
+}
+
+#testoPrivacy{
+	
+	width: 600px;
+	margin: 0;
+	
+	text-align: left;
+	font-size: 24px;
+	color: black;
+}
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#side {
+  float: right;
+  width: 300px;    
+}
+#testoEsperienza{
+
+	width: 900px;
+	margin: 0;
+	top: 240px;
+	
+	position: absolute;
+	left:70px;
+	text-align: left;
+	font-size: 23px;
+	color: black;
+}
+
+#testoContatti{
+
+	width: 600px;
+	margin: 0;
+	
+	text-align: center;
+	font-size: 28px;
+	color: black;
+}
+
+#testoFAQ{
+	width: 600px;
+	margin: 0;
+	top: 150px;
+	
+	position: absolute;
+	left:70px;
+	text-align: left;
+	font-size: 21px;
+	color: black;
+}
+
+#testoFAQ2{
+	width: 600px;
+	margin: 0;
+	top: 110px;
+	
+	position: absolute;
+	right:70px;
+	text-align: right;
+	font-size: 21px;
+	color: black;
+}
+
+#immagine4{
+	
+	width: 650px;
+	height: 530px;
+    position: absolute; 
+    left: 700px; 
+    top: 180px; 
+	
+}
+
+#immagine10{
+	
+	width: 450px;
+	height: 500px;
+    position: absolute; 
+    left: 580px;
+    top: 200px; 
+	
+}
+#immagineannunci{
+	width: 790px;
+	height: 570px;
+    position: absolute; 
+    left: 850px; 
+    top: 150px; 
+	
+}
+
+#immagine6{
+	
+	width: 750px;
+	height: 500px;
+    position: absolute; 
+    left: 830px; 
+	bottom: 15px;
+	
+}
+
+#testoAnnunci{
+
+	width: 600px;
+	margin: 0;
+	
+	position: absolute;
+	left: 30px;
+	text-align: left;
+	font-size: 24px;
+	color: black;
+}
+#testoAzienda{
+
+	width: 600px;
+	margin: 0;
+	
+	position: absolute;
+	left: 30px;
+	text-align: left;
+	font-size: 24px;
+	color: black;
+}
+
+#immagine2{
+	width: 100 px;
+	height: 200 px;
+}
+
+#immagine7{
+	
+	width: 675px;
+	height: 475px;
+    position: absolute; 
+    left: 725px; 
+    top: 10px; 
+	
+}
+
+#immagine8{
+	
+	width: 550px;
+	height: 400px;
+    position: absolute; 
+    left: 950px; 
+    top: 250px; 	
+}
+
+#immagine9{
+	
+	width: 700px;
+	height: 400px;
+    position: absolute; 
+    left: 950px; 
+    top: 250px; 	
+}
+
+#immagine{
+    
+	width: 500px;
+	height: 350px;
+    position: absolute; 
+    right: 0;
+    left: 100px;
+    top: 320px;
+   
+}
+
+/* Prevent selection */
+nav, header, .btn, .popup {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+/* Links */
+
+a:link, a:active, a:visited {
+    color: #0064d9;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+a:hover, a:focus {
+    border-bottom: 1px solid #0064d9;
+    text-decoration: none;
+}
+
+a.disabled:link,
+a.disabled:active,
+a.disabled:visited,
+a.disabled:hover,
+a.disabled:focus {
+    color: #888 !important;
+    text-decoration: none !important;
+    background: none !important;
+    border-bottom-color: rgba(0, 0, 0, 0) !important;
+    outline: none !important;
+    cursor: default !important;
+}
+
+/* Buttons */
+
+.btn, a.btn:link, a.btn:active, a.btn:visited {
+    display: inline-block;
+    padding: 15px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #000;
+    background: none;
+    border: none;
+    border-bottom: none;
+    cursor: pointer;
+
+    white-space: nowrap;
+}
+
+.btn:hover, a.btn:hover {
+    background-color: transparent;
+    color: #fff;
+	
+    text-decoration: none;
+    border: 2px solid #555555;
+}
+
+a.btn:focus {
+    border-bottom: none;
+}
+
+.btn.bold {
+    font-weight: 700;
+}
+
+.btn.small, a.btn.small:link, a.btn.small:active, a.btn.small:visited {
+    padding: 5px;
+    min-width: 1em;
+}
+
+.btn.green, a.btn.green:link, a.btn.green:active, a.btn.green:visited {
+    color: #00ac00;
+}
+
+.btn.green:hover, a.btn.green:hover {
+    color: #fff;
+    background: #00ac00;
+}
+
+/* Fix for chrome */
+select {
+    padding: 5px;
+}
+
+@-moz-document url-prefix() {
+    select {
+        padding: unset !important;
+    }
+}
+
+/* Navbars */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav.center {
+    justify-content: center;
+}
+
+
+/* Main navbar */
+
+nav.main #session-info-block {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+nav.main #nav-main-btn {
+    display: none;
+    font-family: 'bookstore-icons', sans;
+    font-size: 24px;
+    padding: 13px;
+}
+
+nav.main #nav-main-btn::before {
+    content: 'm';
+}
+
+/* Page header */
+
+header {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+/* Page content */
+
+main {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    padding: 0 15px;
+}
+
+/* Page footer */
+
+footer {
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+
+    margin: 0;
+    padding: 10px 15px;
+
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+}
+
+footer a:link,
+footer a:visited,
+footer a:active {
+    color: #000;
+    padding: 0 5px;
+}
+
+footer a:hover,
+footer a:focus {
+    border-bottom-color: #000;
+    padding: 0 5px;
+}
